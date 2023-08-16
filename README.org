@@ -1,0 +1,6 @@
+#+title: Readme
+
+Write or die package I tweaked to increase my motivation when writing my PhD Thesis. Code based on https://www.emacswiki.org/emacs/write-or-die.el. It uses functions exclusive to doom-emacs (https://github.com/doomemacs/doomemacs).
+
+To install just copy it into your .doom.d folder and add
+src_elisp[:exports code]{(load (concat doom-user-dir "local_packages/write-or-die.el"))} to your config file.
